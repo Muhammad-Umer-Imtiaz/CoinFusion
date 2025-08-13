@@ -74,8 +74,9 @@ const FourthSection = () => {
   </div>
 
   <div className="rounded-3xl bg-gradient-to-b from-[#5846FB] via-[#5442F4] to-[#2C18E5] py-32 mt-8 px-18 -ml-20 z-20"></div>
-  <div className="flex flex-col items-center -ml-20 z-10">
+  <div className="flex flex-col items-center -ml-20 z-10 relative">
     <img className="w-32 mb-3" src={yellowImage} alt="" />
+    <img className='absolute w-24 right-0'src={btc} alt="" />
     
     <p className="text-white mt-4 text-base font-semibold ml-22   ">Bitcoin</p>
   </div>
